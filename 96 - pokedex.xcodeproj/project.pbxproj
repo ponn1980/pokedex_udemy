@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E668CDD1CC3CB2700A50343 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 1E668CDC1CC3CB2700A50343 /* pokemon.csv */; };
 		1EEFC90B1CC3C65000A7A81F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEFC90A1CC3C65000A7A81F /* AppDelegate.swift */; };
 		1EEFC90D1CC3C65000A7A81F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEFC90C1CC3C65000A7A81F /* ViewController.swift */; };
 		1EEFC9101CC3C65000A7A81F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EEFC90E1CC3C65000A7A81F /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E668CDC1CC3CB2700A50343 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		1EEFC9071CC3C65000A7A81F /* 96 - pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "96 - pokedex.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EEFC90A1CC3C65000A7A81F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EEFC90C1CC3C65000A7A81F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				1EEFC90A1CC3C65000A7A81F /* AppDelegate.swift */,
 				1EEFC90C1CC3C65000A7A81F /* ViewController.swift */,
+				1E668CDC1CC3CB2700A50343 /* pokemon.csv */,
 				1EEFC90E1CC3C65000A7A81F /* Main.storyboard */,
 				1EEFC9111CC3C65000A7A81F /* Assets.xcassets */,
 				1EEFC9131CC3C65000A7A81F /* LaunchScreen.storyboard */,
@@ -124,6 +127,7 @@
 			files = (
 				1EEFC9151CC3C65000A7A81F /* LaunchScreen.storyboard in Resources */,
 				1EEFC9121CC3C65000A7A81F /* Assets.xcassets in Resources */,
+				1E668CDD1CC3CB2700A50343 /* pokemon.csv in Resources */,
 				1EEFC9101CC3C65000A7A81F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +292,7 @@
 				1EEFC91B1CC3C65000A7A81F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
